@@ -1,0 +1,64 @@
+.main-container{
+    position: relative;
+    text-align: center;
+    top: 4%;
+}
+.main-container h6{
+  font-family: Helvetica Now Text;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: pointer;
+}
+.fav-icon{
+    position: fixed;
+    right: 0;
+    top: 18%;
+    left: 31%;
+    z-index: 999;
+    
+}
+.image-display{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.main-container img{
+ padding: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .carousel .control-dots{
+      bottom: -13px !important;
+      z-index: 999 !important;
+      right: -9px;
+      position: absolute;
+
+    }
+    .carousel .control-dots .dot{
+      border-radius: 0 !important;
+      width: 20px !important;
+      height: 5px !important;
+  
+    }
+    .carousel .control-dots .dot.selected{
+      opacity: unset !important;
+      background: #000 !important;
+    }
+    .fav-icon {
+      position: absolute;
+      right: 0;
+      top: 3%;
+      left: 93%;
+      z-index: 999;
+  }
+  .carousel .carousel-status{
+    display: none;
+  }
+  .carousel .slider-wrapper.axis-horizontal .slider .slide{
+    padding: 20px !important;
+  }
+  }
+

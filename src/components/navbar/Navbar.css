@@ -1,0 +1,73 @@
+/* Navbar section */
+
+.navbar{
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px 10px 30px;
+    position: fixed;
+    z-index: 999;
+    background: #fff;
+
+}
+.navbar-brand-outline{
+    width: 18%;
+    text-align: center;
+}
+.navbar-brand{
+font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #000000;
+}
+.navbar-brand:hover{
+    color: #000000;
+
+}
+.nav-item {
+    font-family: Helvetica, Sans-Serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 120%;
+text-transform: uppercase;
+}
+
+.nav-link{
+    color: #000000;
+}
+.nav-link:hover{
+    color: #000000;
+
+}
+.Nav-icons{
+    width: 22%;
+    text-align: right;
+}
+
+.Nav-icons img {
+    padding: 10px;
+}
+.navbar-expand-lg{
+    width: 100%;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    .navbar{
+        position: relative;
+            flex-wrap: nowrap;
+            width: 100%;
+
+    }
+    .navbar-nav{
+        display: none;
+    }
+    .Nav-icons{
+        display: flex;
+    }
+
+
+}
